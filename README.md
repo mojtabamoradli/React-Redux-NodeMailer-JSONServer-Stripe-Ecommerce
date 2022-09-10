@@ -1,6 +1,6 @@
 # An Ecommerce Website with React, Redux, Node Mailer, JSON-Server REST API and Stripe
 
-+ Demo Video: https://youtu.be/ooGYi6KwQWw
++ Demo Video: https://youtu.be/vqlrtLGdhN8
 
 
 # How to use
