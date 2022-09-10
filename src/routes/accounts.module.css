@@ -1,0 +1,129 @@
+.container {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 15px;
+  margin: 160px auto auto;
+  border-radius: 10px;
+  z-index: 0;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+.formControl {
+  font-family: "Exo";
+  width: 320px;
+  height: 40px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: black;
+  background-color: #c9d1d9;
+  border: 1px #89929b;
+  border-radius: 10px;
+  transition: border-color 0.15s ease-in-out;
+  box-shadow: 0.3s ease-in-out;
+  text-align: center;
+}
+input:focus {
+  outline: none !important;
+  border: 2px solid #89929b;
+}
+
+.btn,
+.btn:active,
+.btn:visited {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 320px;
+  height: 40px;
+  background-color: #1a73e8;
+  color: #fff;
+  border: #1a73e8;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 10px;
+  /* margin-top: -10px; */
+}
+
+.emailVerification {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  /* font-size: 30px;  */
+  margin: 150px 50px 150px 50px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 100px auto;
+    width: 350px;
+  }
+  .formControl {
+    width: 280px;
+  }
+  .btn {
+    width: 280px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    margin: 100px auto;
+    width: 250px;
+  }
+  .formControl {
+    width: 260px;
+    height: 40px;
+  }
+  .btn {
+    width: 260px;
+  }
+}
+
+.accountsTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.accountsHelp {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.accounts {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.accountsTerms {
+  font-size: 13px;
+}
+
+.errors {
+  margin-top: 2px;
+  font-size: 13px;
+  margin-bottom: 3px;
+  color: #b33b3b;
+}
+
+.result {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.success {
+  color: #38ef7d;
+  font-weight: bold;
+}
+
+.failed {
+  color: #b33b3b;
+  font-weight: bold;
+}

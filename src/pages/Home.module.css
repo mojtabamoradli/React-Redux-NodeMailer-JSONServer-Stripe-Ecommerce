@@ -1,0 +1,103 @@
+.container {
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 40px;
+  margin-top: 105px;
+}
+
+.react {
+  color: #82d7f7;
+}
+
+.redux {
+  color: #704cb6;
+}
+
+.nodeMailer {
+  background: -webkit-linear-gradient(#22b573, #29abe2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.jsonServer {
+  background: -webkit-linear-gradient(#00aeff, #3e404f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.stripe {
+  color: #635bff;
+}
+
+.image {
+  width: 25%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.routes {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.featuresContainer1,
+.featuresContainer2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.featuresContainer1,
+.featuresContainer2 p {
+  text-align: left;
+}
+
+@media (max-width: 760px) {
+  .h1 {
+    font-size: 30px;
+  }
+  .image {
+    width: 60%;
+  }
+  .routes {
+    width: 70%;
+  }
+  .featuresContainer1,
+  .featuresContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  .featuresContainer2 {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 568px) {
+  .h1 {
+    font-size: 20px;
+  }
+  .image {
+    width: 70%;
+  }
+  .routes {
+    width: 80%;
+  }
+}
+
+@media (max-width: 368px) {
+  .h1 {
+    font-size: 17px;
+  }
+  .image {
+    width: 75%;
+  }
+  .routes {
+    width: 85%;
+  }
+}
