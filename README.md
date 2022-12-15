@@ -2,7 +2,7 @@
 
 + Demo Video: https://youtu.be/vqlrtLGdhN8
 
-![Demo](https://github.com/mojtabamoradli/React-Redux-NodeMailer-JSONServer-Stripe-Ecommerce/blob/main/Cover.png?raw=true "Demo")
+![Demo](https://github.com/mojtabamoradli/React-Redux-NodeMailer-JSONServer-Stripe-Ecommerce/blob/main/Demo.png?raw=true "Demo")
 
 
 # How to use
